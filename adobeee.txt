@@ -1,0 +1,116 @@
+!
+interviu:
+section, article, header, footer
+
+liste:
+ul              li
+ol-numere
+
+mozila developer - site 
+
+specificitate specificy importanta stilurilor atunci cand dunt aplicate:
+div are .....
+clasa are 010
+id ul are..... -este cel mai important 
+
+*{
+    margin: 0px;
+    padding: 0 px;
+} 
+*- universal selector - are specificit cea mai mica
+
+
+cum ocupa spatiiu un elemant:
+<div style="background-color: blue; width: 200px; padding: 16 px
+
+a:hover - pseudoclasa
+
+cum selectam un tag, id, div, clase - trebuie sa stim
+
+element-padding-border
+
+diferenta pading si border:
+pading-cat de mare sa fie elemetul
+margin: cat de mare e dist dibtre elem si alt element
+
+partea de position - sunt 5 in total
+position: relative; sau static; sau absolute;(se ia in functie de parintele direct care are alta pozitie fata de cea default --ceva cu parinte), sau fixed;(in functie de ecranul brpwserului este fixed), sau sticky;(cand dam scroll se duce putin in sus si dupa ramane acolo)
+
+
+z-index
+default: 0 sau 1 (habar n am)
+
+flexbox - modalitate de a crea un layout - flexbox controleaza pe o singura axa 
+punem flexbox pe un elem parinte
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+}
+
+ce face tag ul de aside????? - inspect la un container de reclame- se foloseste la reclame
+shift alt - copiaza linia
+
+
+cum aliniezi un div??????? ->  justify-content: center;
+                              align-items: center
+                              + cred ca inca ceva (vezi in flex-container -poate display: flex;?? fiind primul pus)
+
+
+  grid - este bidimensional- aliniaza si pe verticala se pe orizontala elamentele      
+
+  .grid-layout {
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 80px, 1fr, 70px;
+
+    grid-template-areas:
+    'header header header'
+    'nav content sidebar' ------------ 3 coloane si 3 randuri --------- ca niste parcari
+    'nav footer footer'
+
+  }                      
+
+  grid e folosit pt layoot uri mari, flexbox pt chestii mai micute
+
+css-tricks.com - site pt flexbox si grid
+flexbox froggy  - joculet pt invatat flexbox 
+grid garden - joculet pt invatare grid 
+
+
+<link rel="stylesheet" href="styles.css" />
+    <style>
+        div {
+            color: aqua;
+         }
+    </style> 
+
+e clasa pt ca are punct in fata
+*{
+    margin:0;
+    padding: 0;
+}
+
+.test-div {
+    width:
+    height:
+    background-color:
+    padding:
+    margin:
+    
+}
+
+.outter {
+
+}
+
+.inner{
+    
+}
+
+
+tema: titlu sticky, la un click pe poza sa apara anul filmului
